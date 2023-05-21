@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>第一条博客</title>
+      <link href="/2021/05/10/HelloWord/"/>
+      <url>/2021/05/10/HelloWord/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h3><ul><li><p>安装node  <a href="https://nodejs.org/zh-cn/">node安装地址</a></p></li><li><p>安装完成后<code>node -v</code>查看node版本</p></li><li><p>安装hexo框架<code>npm install -g hexo-cli</code></p></li><li><p><code>hexo -v</code>查看版本</p></li><li><p>创建<code>/blog</code>目录并进入打开终端</p></li><li><p>先进入管理员模式<code>sudo su</code></p></li><li><p>初始化博客<code>sudo hexo init</code></p></li><li><p><code>hexo s</code>启动本地服务</p></li></ul><h3 id="GitHub部署"><a href="#GitHub部署" class="headerlink" title="GitHub部署"></a>GitHub部署</h3><ul><li>GitHub新建一个仓库，名字必须为<code>GitHub用户名.github.io</code></li><li>在<code>/blog</code>目录安装git部署插件<code>npm install --save hexo-deployer-git</code></li><li>在配置文件<code>_config.yml </code>中配置仓库地址</li></ul><h3 id="推送博客"><a href="#推送博客" class="headerlink" title="推送博客"></a>推送博客</h3><ul><li>每次在<code>_posts</code>目录下新建<code>博客.md</code>(可能有权限问题，可以现在外面创建再复制进来)，并执行以下三步<ul><li>清理<code>hexo clean</code></li><li>生成<code>hexo g</code></li><li>推送<code>hexo d</code>(过程需要输入github用户名和密码（我的是生成的token而不是密码）)</li></ul></li></ul><h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>主题和其他配置参考：</p><ul><li><p>Hexo搭建Butterfly主题并快速美化<a href="https://blog.csdn.net/mjh1667002013/article/details/129290903?spm=1001.2014.3001.5506">https://blog.csdn.net/mjh1667002013/article/details/129290903?spm=1001.2014.3001.5506</a></p></li><li><p>Hexo-Butterfly音乐播放器的添加<a href="https://blog.csdn.net/qq_41467882/article/details/124734598?spm=1001.2014.3001.5506">https://blog.csdn.net/qq_41467882/article/details/124734598?spm=1001.2014.3001.5506</a></p></li></ul><p>更多Butterfly详情参考：<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo部署 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
